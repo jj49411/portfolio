@@ -1,9 +1,10 @@
 import React from 'react';
+import AboutContent from '../components/AboutContent';
 
-function AboutPage() {
+function AboutPage(props) {
 
   return (
-    <p>About page works</p>
+    <AboutContent title={props.title} text={props.text}></AboutContent>
   );
 }
 
