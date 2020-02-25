@@ -13,7 +13,7 @@ function Footer() {
             Julie Cheng
           </Col>
           <Col className='p-0 d-flex justify-content-end' md={3}>
-            This site was made by Julie.
+            Copyright © 2020 All rights reserved.
           </Col>
         </Row>
       </Container>
