@@ -1,9 +1,10 @@
 import React from 'react';
+import Projects from '../components/Projects';
 
-function ProjectsPage() {
+function ProjectsPage(props) {
 
   return (
-    <p>Projects page works</p>
+    <Projects title={props.title} text={props.text}></Projects>
   );
 }
 
