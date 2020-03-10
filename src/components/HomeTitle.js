@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -14,7 +15,9 @@ function HomeTitle(props) {
           <Col md={8} sm={12}>
             { props.title && <h1 className='display-3 font-weight-bolder'>{props.title}</h1> }
             { props.subTitle && <h1 className='display-6 font-weight-light'>{props.subTitle}</h1> }
-            { props.text && <h1 className='lead font-weight-light'>{props.text}</h1> }
+            <Link to ='/projects'>
+              { props.text && <h1 className='lead font-weight-light'>{props.text}</h1> }
+           </Link>
           </Col>
         </Row>
       </Container>
