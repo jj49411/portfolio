@@ -1,9 +1,10 @@
 import React from 'react';
 import HomeTitle from '../components/HomeTitle';
 import ProjectsPage from './ProjectsPage';
+import Container from 'react-bootstrap/Container';
 
 import pic1 from '../assets/images/pic1.jpeg';
-import Container from 'react-bootstrap/Container';
+
 
 
 function HomePage(props) {

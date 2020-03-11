@@ -29,8 +29,8 @@ class App extends React.Component {
         text: 'Checkout my projects'
       },
       about: {
-        title: "About Me",
-        text: 'details here'
+        title: "About",
+        text: 'I am a goal-driven software engineer recently graduated from Makers Academy. Coming from a design/marketing background, I have a strong passion to build something aesthetic but also useful.  I’m always thinking from user’s perspectives and evaluating my actions that make a positive impact on those who use the product. Being a software developer combines all my motivations: constantly learning, always challenging myself, designing useful products and working with like-minded people.'
       },
       projects: {
         title: "My Projects"
@@ -44,7 +44,7 @@ class App extends React.Component {
       <Router>
         <Container className='p-0' fluid={true}>
           <Navbar className='border-bottom' bg='transparent' expand='lg'>
-            {/* <Navbar.Brand>Julie Cheng</Navbar.Brand> */}
+            <Navbar.Brand>Julie Cheng</Navbar.Brand>
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle'></Navbar.Toggle>
             <Navbar.Collapse id='navbar-toggle'>
               <Nav className='ml-auto'>
