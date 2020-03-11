@@ -8,4 +8,5 @@ Find my portfolio here.
 - React
 - React Router
 - React Spring
+- React Player
 - Bootstrap
