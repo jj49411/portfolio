@@ -24,7 +24,7 @@ class App extends React.Component {
         {title: 'Projects', path: '/projects'}
       ],
       home: {
-        title: "Julie's site",
+        title: "Julie Cheng",
         subTitle: 'Portfolio',
         text: 'Checkout my projects'
       },

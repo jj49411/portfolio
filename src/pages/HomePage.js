@@ -1,20 +1,26 @@
 import React from 'react';
 import HomeTitle from '../components/HomeTitle';
+import HomeAbout from '../components/HomeAbout';
 import ProjectsPage from './ProjectsPage';
 import Container from 'react-bootstrap/Container';
 
-import pic1 from '../assets/images/pic1.jpeg';
-
+import '../App.css';
 
 
 function HomePage(props) {
 
   return (
-    <Container fluid={true}>
-       <img src={pic1} width='1420'></img>
-       <HomeTitle title={props.title} subTitle={props.subTitle} text={props.text}></HomeTitle>
+    <Container>
+      <Container className='background' fluid={true}>
+        <HomeTitle title={props.title} subTitle={props.subTitle} text={props.text}></HomeTitle>
+      </Container>
+      <Container>
+        <HomeAbout></HomeAbout>
+      </Container>
     </Container>
   );
 }
 
 export default HomePage;
+
+
