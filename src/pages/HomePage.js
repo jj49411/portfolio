@@ -16,7 +16,7 @@ function HomePage(props) {
         <HomeTitle title={props.title} title2={props.title2} subTitle={props.subTitle} text={props.text}></HomeTitle>
       </div>
       <div>
-        <HomeAbout titleA={props.titleA} textA={props.textA}></HomeAbout>
+        <HomeAbout titleA={props.titleA} text1={props.text1} text2={props.text2} text3={props.text3}></HomeAbout>
       </div>
     </div>
   );

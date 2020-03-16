@@ -15,9 +15,10 @@ function HomeTitle(props) {
       <Container fluid={true}>
         <Row>
           <Col className='homeTitle' md={8} sm={12}>
-            { props.title && <h1 className='display-4 font-weight-bolder text-white'>{props.title}</h1> }
-            { props.title2 && <h1 className='display-4 font-weight-bolder text-white'>{props.title2}</h1> }
-            { props.subTitle && <h1 className='display-6 font-weight-light text-white'>{props.subTitle}</h1> }
+            { props.title && <h1 className='homeText display-4 font-weight-bolder text-white'>{props.title}</h1> }
+            { props.title2 && <h1 className='homeText display-4 font-weight-bolder text-white'>{props.title2}</h1> }
+            { props.subTitle && <h1 className='smallTitle font-weight-light text-white'>{props.subTitle}</h1> }
+            
           </Col>
         </Row>
       </Container>

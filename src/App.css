@@ -8,6 +8,13 @@
   }
 }
 
+@font-face {
+  font-family: HelveticaNeueCondensedBold;
+  font-style: normal;
+  src:
+    url(./assets/fonts/HelveticaNeueCondensedBold.ttf) format('truetype'),
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -37,7 +44,45 @@
   margin-left: 500px;
   
 }
+.homeText {
+  font-family: HelveticaNeueCondensedBold;
+  margin-top: 0px;
+  margin-bottom: 2px;
 
-.aboutSectionView {
-  background: transparent;
+}
+
+.homeAbout {
+  font-family: HelveticaNeueCondensedBold;
+  margin-bottom: 50px;
+  margin-right: 500px;
+  margin-left: 230px;
+
+}
+
+.smallTitle {
+  margin-top: 0px;
+  margin-bottom: 2px;
+  font-size: 20px;
+  
+}
+
+.homeAboutText {
+  font-size: 20px;
+  margin-bottom: 50px;
+
+}
+
+.projectsLink {
+  margin-top: 40px;
+  margin-bottom: 2px;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+.icon2 {
+  height: 40px;
+  width: 40px;
 }

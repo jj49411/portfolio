@@ -3,6 +3,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import pic3 from '../assets/images/pic3.png';
 import '../App.css';
@@ -21,6 +22,7 @@ function AboutContent(props) {
           <Col xs="4" className='mt-5 p-5'>
             { props.title && <h1 className='display-4 font-weight-light'>{props.title}</h1> }
             { props.text && <h1 className='lead font-weight-light'>{props.text}</h1> }
+            <Link to ='/projects'><h1 className='lead font-weight-light'>Checkout my projects</h1></Link>
           </Col>
         </Row>
       </Container>

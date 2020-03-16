@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 
 import pic3 from '../assets/images/pic3.png';
+import linkedinPic from '../assets/images/linkedin.png';
+import githubPic from '../assets/images/github.png';
 
 
 function HomeAbout(props) {
@@ -19,14 +21,19 @@ function HomeAbout(props) {
           <Col xs="4" className='mt-5 p-5'>
             <img src={pic3} width='300'></img>
           </Col>
-          <Col xs="4" className='mt-5 p-5'>
-            { props.titleA && <h1 className='display-4 font-weight-light'>{props.titleA}</h1> }
-            { props.textA && <h1 className='lead font-weight-light'>{props.textA}</h1> }
-            <Link to ='/projects'><h1 className='lead font-weight-light'>Checkout my projects</h1></Link>
-            <h1><a href={'http://linkedin.com/in/julie-cheng'} className='lead font-weight-light'>Linkedin</a></h1>
-            <h1><a href={'https://github.com/jj49411/CV'} className='lead font-weight-light'>GitHub</a></h1>
+          <Col xs="6" className='mt-4 p-4'>
+            { props.titleA && <h1 className='homeAbout display-4 font-weight-bolder'>{props.titleA}</h1> }
+            { props.text1 && <h1 className='homeAboutText font-weight-light'>{props.text1}</h1> }
+            { props.text2 && <h1 className='homeAboutText font-weight-light'>{props.text2}</h1> }
+            { props.text3 && <h1 className='homeAboutText font-weight-light'>{props.text3}</h1> }
+            <Link to ='/projects' className='projectsLink'><h1 className='lead font-weight-light'>Checkout my projects</h1></Link>
+            <h1>
+              <a href={'http://linkedin.com/in/julie-cheng'} className='lead font-weight-light'>
+                <img src={linkedinPic} className='icon' /></a>{'    '}
+              <a href={'https://github.com/jj49411/CV'} className='lead font-weight-light'>
+                <img src={githubPic} className='icon2' /> </a></h1>
+
           </Col>
-              
         </Row>
       </Container>
     </Jumbotron>
