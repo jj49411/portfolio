@@ -11,7 +11,7 @@ import '../App.css';
 function HomePage(props) {
 
   return (
-    <div fluid={true}>
+    <div className='homePage' fluid={true}>
       <div className='background' >
         <HomeTitle title={props.title} title2={props.title2} subTitle={props.subTitle} text={props.text}></HomeTitle>
       </div>
