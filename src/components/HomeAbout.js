@@ -32,7 +32,6 @@ function HomeAbout(props) {
                 <img src={linkedinPic} className='icon' /></a>{'    '}
               <a href={'https://github.com/jj49411/CV'} className='lead font-weight-light'>
                 <img src={githubPic} className='icon2' /> </a></h1>
-
           </Col>
         </Row>
       </Container>

@@ -59,7 +59,7 @@ class App extends React.Component {
           </Navbar>
 
           <Route path='/' exact render={() => <HomePage title={this.state.home.title} title2={this.state.home.title2} subTitle={this.state.home.subTitle} text={this.state.home.text} titleA={this.state.about.title} text1={this.state.about.text1} text2={this.state.about.text2} text3={this.state.about.text3}></HomePage>}></Route>
-          <Route path='/about' render={() => <AboutPage title={this.state.about.title} text={this.state.about.text}></AboutPage>}></Route>
+          <Route path='/about' render={() => <AboutPage title={this.state.about.title} text1={this.state.about.text1} text2={this.state.about.text2} text3={this.state.about.text3}></AboutPage>}></Route>
           <Route path='/projects' render={() => <ProjectsPage title={this.state.projects.title}></ProjectsPage>}></Route>
         
 
