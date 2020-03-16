@@ -15,11 +15,9 @@ function HomeTitle(props) {
       <Container fluid={true}>
         <Row>
           <Col className='homeTitle' md={8} sm={12}>
-            { props.title && <h1 className='display-3 font-weight-bolder text-white'>{props.title}</h1> }
+            { props.title && <h1 className='display-4 font-weight-bolder text-white'>{props.title}</h1> }
+            { props.title2 && <h1 className='display-4 font-weight-bolder text-white'>{props.title2}</h1> }
             { props.subTitle && <h1 className='display-6 font-weight-light text-white'>{props.subTitle}</h1> }
-            {/* <Link to ='/projects'>
-              { props.text && <h1 className='lead font-weight-light'>{props.text}</h1> }
-           </Link> */}
           </Col>
         </Row>
       </Container>

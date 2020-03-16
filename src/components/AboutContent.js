@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import pic3 from '../assets/images/pic3.png';
+import '../App.css';
 
 
 function AboutContent(props) {
@@ -21,11 +22,13 @@ function AboutContent(props) {
             { props.title && <h1 className='display-4 font-weight-light'>{props.title}</h1> }
             { props.text && <h1 className='lead font-weight-light'>{props.text}</h1> }
           </Col>
-          
         </Row>
       </Container>
     </Jumbotron>
+
+  
   );
 }
+
 
 export default AboutContent;

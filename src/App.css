@@ -27,7 +27,6 @@
   background-image: url(./assets/images/pic1.jpeg);
   background-size: cover;
   height: 80vh;
-  width: 100vh;
 }
 
 .homeTitle {
@@ -37,4 +36,8 @@
   margin-top: 160px;
   margin-left: 500px;
   
+}
+
+.aboutSectionView {
+  background: transparent;
 }

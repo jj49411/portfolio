@@ -20,12 +20,13 @@ function HomeAbout(props) {
             <img src={pic3} width='300'></img>
           </Col>
           <Col xs="4" className='mt-5 p-5'>
-            <Link to ='/projects'>
-              <h1 className='lead font-weight-light'>Checkout my projects</h1>
-           </Link>
-           <h1><a href={'http://linkedin.com/in/julie-cheng'} className='lead font-weight-light'>Linkedin</a></h1>
-           <h1><a href={'https://github.com/jj49411/CV'} className='lead font-weight-light'>GitHub</a></h1>
-          </Col>          
+            { props.titleA && <h1 className='display-4 font-weight-light'>{props.titleA}</h1> }
+            { props.textA && <h1 className='lead font-weight-light'>{props.textA}</h1> }
+            <Link to ='/projects'><h1 className='lead font-weight-light'>Checkout my projects</h1></Link>
+            <h1><a href={'http://linkedin.com/in/julie-cheng'} className='lead font-weight-light'>Linkedin</a></h1>
+            <h1><a href={'https://github.com/jj49411/CV'} className='lead font-weight-light'>GitHub</a></h1>
+          </Col>
+              
         </Row>
       </Container>
     </Jumbotron>
