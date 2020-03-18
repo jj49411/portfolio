@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ProjectsPage from './pages/ProjectsPage';
+import PhotographyPage from './pages/PhotographyPage';
 
 
 
@@ -38,6 +39,10 @@ class App extends React.Component {
       },
       projects: {
         title: "My Projects"
+      },
+      photography: {
+        title: "Photography",
+        text: "Description here"
       }
     }
   }
@@ -46,7 +51,7 @@ class App extends React.Component {
   render() {
     if (isMobile) {
       return (
-        <div> Content not unavailable on mobile</div>
+        <div> Content not available on mobile</div>
       )
     }else {
      return (
@@ -60,6 +65,7 @@ class App extends React.Component {
                 <Link className='nav-link' to='/'>Home</Link>
                 <Link className='nav-link' to='/about'>About</Link>
                 <Link className='nav-link' to='/projects'>Projects</Link>
+                <Link className='nav-link' to='/photography'>Photography</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
@@ -67,6 +73,7 @@ class App extends React.Component {
           <Route path='/' exact render={() => <HomePage title={this.state.home.title} title2={this.state.home.title2} subTitle={this.state.home.subTitle} text={this.state.home.text} titleA={this.state.about.title} text1={this.state.about.text1} text2={this.state.about.text2} text3={this.state.about.text3}></HomePage>}></Route>
           <Route path='/about' render={() => <AboutPage title={this.state.about.title} text1={this.state.about.text1} text2={this.state.about.text2} text3={this.state.about.text3}></AboutPage>}></Route>
           <Route path='/projects' render={() => <ProjectsPage title={this.state.projects.title}></ProjectsPage>}></Route>
+          <Route path='/photography' render={() => <PhotographyPage title={this.state.photography.title} text={this.state.photography.text}></PhotographyPage>}></Route>
         
 
           <Footer></Footer>
