@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import { isMobile } from "react-device-detect";
 import './App.css';
 
 import Footer from './components/Footer';
@@ -43,6 +44,11 @@ class App extends React.Component {
 
 
   render() {
+    if (isMobile) {
+      return (
+        <div> Content not unavailable on mobile</div>
+      )
+    }else {
      return (
       <Router>
         <Container className='p-0' fluid={true}>
@@ -69,6 +75,7 @@ class App extends React.Component {
 
     );
   }
+}
  
 }
 
