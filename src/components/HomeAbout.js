@@ -28,9 +28,9 @@ function HomeAbout(props) {
             { props.text3 && <h1 className='homeAboutText font-weight-light'>{props.text3}</h1> }
             <Link to ='/projects' className='projectsLink'><h1 className='lead font-weight-light'>Checkout my projects</h1></Link>
             <h1>
-              <a href={'http://linkedin.com/in/julie-cheng'} className='lead font-weight-light'>
+              <a href={'http://linkedin.com/in/julie-cheng'} target='_blank' className='lead font-weight-light'>
                 <img src={linkedinPic} className='icon' /></a>{'    '}
-              <a href={'https://github.com/jj49411/CV'} className='lead font-weight-light'>
+              <a href={'https://github.com/jj49411/CV'} target='_blank' className='lead font-weight-light'>
                 <img src={githubPic} className='icon2' /> </a></h1>
           </Col>
         </Row>

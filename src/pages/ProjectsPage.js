@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Projects from '../components/ProjectsContent';
 
-function ProjectsPage(props) {
 
-  return (
-    <Projects title={props.title} text={props.text}></Projects>
+export default class ProjectsPage extends Component {
+
+  constructor(props) {
+    super(props);
+  }
+  scrollToTop() {
+    window.scrollTo(0, 0);
+}
+  render() {
+    this.scrollToTop()
+    return (
+    <Projects title={this.props.title} text={this.props.text}></Projects>
   );
 }
 
-export default ProjectsPage;
+  }
+  
+
