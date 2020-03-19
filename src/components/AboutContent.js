@@ -13,11 +13,6 @@ import '../App.css';
 
 function AboutContent(props) {
 
-  const ScrollToTop = () => {
-    window.scrollTo(0, 0);
-    return null;
-  };
-
   return (
     
     <Jumbotron className='bg-transparent jumbotron-fluid p-0'>

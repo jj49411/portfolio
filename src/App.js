@@ -42,7 +42,7 @@ class App extends React.Component {
       },
       photography: {
         title: "Photography",
-        text: "Description here"
+        text: "A fashion photographic campaign for Stella McCartney"
       }
     }
   }
