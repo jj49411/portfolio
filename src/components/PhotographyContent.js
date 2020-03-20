@@ -71,7 +71,7 @@ function PhotographyContent(props) {
         </Row>
         <Row >
           <Col>
-            <img src={m2} className='moodboard'></img>
+            <img src={m2} className='moodboard2'></img>
           </Col>
         </Row>
         <Row >
