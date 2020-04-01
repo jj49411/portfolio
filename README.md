@@ -1,12 +1,10 @@
-# portfolio
+# Portfolio
 
-Find my portfolio here.
+My portfolio website built with React.
 
 
 
 ### Technologies
 - React
 - React Router
-- React Spring
-- React Player
 - Bootstrap
