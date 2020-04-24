@@ -4,6 +4,7 @@ import Adapter from 'enzyme-adapter-react-16'
 
 import App from './App'
 
+
 configure({ adapter: new Adapter() })
 
 
@@ -30,4 +31,5 @@ describe('App', () => {
   it('nav title renders correctly', () => {
     expect(wrapper.find(`[data-test='nav-title']`).text()).toContain('Julie')
   })
+
 })
