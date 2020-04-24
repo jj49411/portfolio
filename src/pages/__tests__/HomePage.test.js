@@ -16,7 +16,6 @@ describe('HomePage', () => {
 
   beforeEach(() => {
     wrapper = shallow(<HomePage />)
-    console.log(wrapper)
   })
 
   it('should render correctly', () => {
