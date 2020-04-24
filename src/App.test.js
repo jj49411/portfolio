@@ -23,4 +23,11 @@ describe('App', () => {
     expect(wrapper.find('Router')).toBeDefined()
   })
 
+  it('should show a nav title', () => {
+    expect(wrapper.find(`[data-test='nav-title']`).length).toBe(1)
+  })
+
+  it('nav title renders correctly', () => {
+    expect(wrapper.find(`[data-test='nav-title']`).text()).toContain('Julie')
+  })
 })
