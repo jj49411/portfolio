@@ -1,19 +1,19 @@
-import React from 'react';
+import React from 'react'
 
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
-import gif1 from '../assets/images/gif1.gif';
-import gif2 from '../assets/images/gif2.gif';
-import gif3 from '../assets/images/gif3.gif';
-import gif4 from '../assets/images/gif4.gif';
-import gif5 from '../assets/images/gif5.gif';
-import gif6 from '../assets/images/gif6.gif';
-import cat1 from '../assets/images/cat1.gif';
-import cat2 from '../assets/images/cat2.gif';
-import line from '../assets/images/line.png';
+import gif1 from '../assets/images/gif1.gif'
+import gif2 from '../assets/images/gif2.gif'
+import gif3 from '../assets/images/gif3.gif'
+import gif4 from '../assets/images/gif4.gif'
+import gif5 from '../assets/images/gif5.gif'
+import gif6 from '../assets/images/gif6.gif'
+import cat1 from '../assets/images/cat1.gif'
+import cat2 from '../assets/images/cat2.gif'
+import line from '../assets/images/line.png'
 
 function Projects(props) {
 
@@ -105,7 +105,7 @@ function Projects(props) {
        
 
     </Jumbotron>
-  );
+  )
 }
 
-export default Projects;
+export default Projects

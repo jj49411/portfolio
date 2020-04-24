@@ -1,11 +1,11 @@
-import React from 'react';
-import HomeTitle from '../components/HomeTitle';
-import HomeAbout from '../components/HomeAbout';
-import AboutContent from '../components/AboutContent';
-import ProjectsPage from './ProjectsPage';
-import Container from 'react-bootstrap/Container';
+import React from 'react'
+import HomeTitle from '../components/HomeTitle'
+import HomeAbout from '../components/HomeAbout'
+import AboutContent from '../components/AboutContent'
+import ProjectsPage from './ProjectsPage'
+import Container from 'react-bootstrap/Container'
 
-import '../App.css';
+import '../App.css'
 
 
 function HomePage(props) {
@@ -19,9 +19,7 @@ function HomePage(props) {
         <HomeAbout titleA={props.titleA} text1={props.text1} text2={props.text2} text3={props.text3}></HomeAbout>
       </div>
     </div>
-  );
+  )
 }
 
-export default HomePage;
-
-
+export default HomePage

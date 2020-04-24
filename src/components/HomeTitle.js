@@ -1,11 +1,10 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import React from 'react'
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
-import '../App.css';
+import '../App.css'
 
 function HomeTitle(props) {
 
@@ -23,7 +22,7 @@ function HomeTitle(props) {
         </Row>
       </Container>
     </Jumbotron>
-  );
+  )
 }
 
-export default HomeTitle;
+export default HomeTitle

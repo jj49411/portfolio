@@ -1,24 +1,24 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import { isMobile } from "react-device-detect";
-import './App.css';
-import logo from './assets/images/jclogo.png';
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
+import Container from 'react-bootstrap/Container'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import { isMobile } from "react-device-detect"
+import './App.css'
+import logo from './assets/images/jclogo.png'
 
-import Footer from './components/Footer';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
-import ProjectsPage from './pages/ProjectsPage';
-import PhotographyPage from './pages/PhotographyPage';
+import Footer from './components/Footer'
+import HomePage from './pages/HomePage'
+import AboutPage from './pages/AboutPage'
+import ProjectsPage from './pages/ProjectsPage'
+import PhotographyPage from './pages/PhotographyPage'
 
 
 
 class App extends React.Component {
 
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       title: 'Julie Cheng',
       headerLinks: [
@@ -81,10 +81,10 @@ class App extends React.Component {
         </Container>
       </Router>
 
-    );
+    )
   }
 }
  
 }
 
-export default App;
+export default App
