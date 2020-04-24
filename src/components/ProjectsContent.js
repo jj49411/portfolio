@@ -11,6 +11,8 @@ import gif3 from '../assets/images/gif3.gif';
 import gif4 from '../assets/images/gif4.gif';
 import gif5 from '../assets/images/gif5.gif';
 import gif6 from '../assets/images/gif6.gif';
+import cat1 from '../assets/images/cat1.gif';
+import cat2 from '../assets/images/cat2.gif';
 import line from '../assets/images/line.png';
 
 function Projects(props) {
@@ -41,6 +43,21 @@ function Projects(props) {
         </Col>
       </Row>
     
+     </Container>
+     <img src={line} className="line"></img>
+     <Container className='project'>
+       <Row>
+        <Col>
+          <h1 className='projectsContent display-8 font-weight'>• Cat Browser</h1>
+          <h1 className='projectsContent lead font-weight-light'>A full-stack MERN web application that allows users to browse cat images and save to a favourites list. A user can like an image when browsing, view all the liked images and delete an image from the Favourites page.</h1>
+          <h1 className='projectsContent lead font-weight-light'>Technologies Used: JavaScript, React, Node.js, Express, MongoDB, Mongoose, Jest, Enzyme, Cat API</h1>
+          <a href={'https://github.com/jj49411/cat_browser'} target='_blank' className='projectsContent lead font-weight-light'>View the repo</a>
+        </Col>
+        <Col>
+          <img src={cat1}></img>
+          <img src={cat2}></img>
+        </Col>
+       </Row>
      </Container>
      <img src={line} className="line"></img>
      <Container className='project'>
