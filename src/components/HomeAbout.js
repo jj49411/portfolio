@@ -19,7 +19,7 @@ function HomeAbout(props) {
       <Container fluid={true}>
         <Row className='justify-content-center py-5'>
           <Col xs="4" className='mt-5 p-5'>
-            <img src={pic3} width='300'></img>
+            <img data-test='profile-img' src={pic3} width='300'></img>
           </Col>
           <Col xs="6" className='mt-4 p-4'>
             { props.titleA && <h1 className='homeAbout display-4 font-weight-bolder'>{props.titleA}</h1> }
