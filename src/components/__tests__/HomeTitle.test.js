@@ -24,4 +24,13 @@ describe('HomeTitle', () => {
     expect(wrapper.find('.homeTitle').length).toBe(1)    
   })
 
+  it('should render title passing from props', () => {
+    const props = {
+      title: 'Hello!',
+      subTitle: 'Software Engineer'
+    }
+    wrapper = shallow(<HomeTitle {...props}/>)
+    expect(wrapper.find('.smallTitle').text()).toBe('Software Engineer')    
+  })
+
 })
