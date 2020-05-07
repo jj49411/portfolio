@@ -20,8 +20,12 @@ describe('Footer', () => {
     expect(wrapper.exists()).toBe(true)
   })
 
-  it('should show the title', () => {
+  it('should show a footer', () => {
     expect(wrapper.find('footer').length).toBe(1)    
+  })
+
+  it('should render all rights reserved', () => {
+    expect(wrapper.find('Col').text()).toContain('All rights reserved.')   
   })
 
 })
