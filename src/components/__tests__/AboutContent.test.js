@@ -24,5 +24,12 @@ describe('AboutContent', () => {
     expect(wrapper.find(`[data-test='profile-img']`).length).toBe(1)    
   })
 
-
+  it('should render about content from props', () => {
+    const props = {
+      title: 'About Me',
+      text1: 'The reason I love coding...',
+    }
+    wrapper = shallow(<AboutContent {...props}/>)
+    expect(wrapper.find('.homeAbout').text()).toBe('About Me')  
+  })
 })
