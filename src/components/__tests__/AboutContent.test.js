@@ -32,4 +32,16 @@ describe('AboutContent', () => {
     wrapper = shallow(<AboutContent {...props}/>)
     expect(wrapper.find('.homeAbout').text()).toBe('About Me')  
   })
+
+  it('should have a link to projects page', () => {
+    expect(wrapper.find('.projectsLink').length).toBe(1)    
+  })
+
+  it('should show Linkedin link', () => {
+    expect(wrapper.find('.icon').length).toBe(1)    
+  })
+
+  it('should show Github link', () => {
+    expect(wrapper.find('.icon2').length).toBe(1)    
+  })
 })
