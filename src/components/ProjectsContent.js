@@ -19,7 +19,7 @@ function Projects(props) {
 
   return (
     
-    <Jumbotron className='bg-transparent jumbotron-fluid p-0'>
+    <Jumbotron className='bg-transparent jumbotron-fluid p-0' data-test='projects'>
       <Container fluid={true}>
         <Row className='justify-content-center py-5'>
           <Col md={8} sm={12}>
