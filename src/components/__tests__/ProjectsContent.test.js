@@ -24,5 +24,13 @@ describe('Projects', () => {
     expect(wrapper.find(`[data-test='projects']`).length).toBe(1)    
   })
 
+  it('should render about content from props', () => {
+    const props = {
+      title: "My Projects"
+    }
+    wrapper = shallow(<Projects {...props}/>)
+    expect(wrapper.find('.projectsTitle').text()).toBe('My Projects')  
+  })
+
   
 })
