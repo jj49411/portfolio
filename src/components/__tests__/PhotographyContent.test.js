@@ -24,4 +24,13 @@ describe('PhotographyContent', () => {
     expect(wrapper.find(`[data-test='photography']`).length).toBe(1)    
   })
 
+  it('should render photography page title from props', () => {
+    const props = {
+      title: "Photography",
+      text: "Check out the photos"
+    }
+    wrapper = shallow(<PhotographyContent {...props}/>)
+    expect(wrapper.find(`[data-test='photography-content']`).text()).toBe('Check out the photos')  
+  })
+
 })

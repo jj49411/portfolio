@@ -28,7 +28,7 @@ function PhotographyContent(props) {
         <Row className='justify-content-center py-5'>
           <Col md={8} sm={12}>
             { props.title && <h1 className='projectsTitle display-4 font-weight-bolder'>{props.title}</h1> }
-            { props.text && <h1 className='photoText font-weight-light'>{props.text}</h1> }
+            { props.text && <h1 className='photoText font-weight-light' data-test='photography-content'>{props.text}</h1> }
           </Col>
         </Row>
       </Container>
