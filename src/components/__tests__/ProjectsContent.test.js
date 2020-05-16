@@ -32,5 +32,17 @@ describe('Projects', () => {
     expect(wrapper.find('.projectsTitle').text()).toBe('My Projects')  
   })
 
+  it('should show a project title', () => {
+    expect(wrapper.find(`[data-test='project-title']`).length).toBe(1)    
+  })
+
+  it('should show project description', () => {
+    expect(wrapper.find(`[data-test='project-content']`).length).toBe(1)    
+  })
+
+  it('should show used tech', () => {
+    expect(wrapper.find(`[data-test='project-tech']`).length).toBe(1)    
+  })
+
   
 })

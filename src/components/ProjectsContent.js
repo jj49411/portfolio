@@ -35,9 +35,9 @@ function Projects(props) {
           <img src={gif2}></img>
         </Col>
         <Col xs="5">
-          <h1 className='projectsContent display-8 font-weight'>• Recispeak</h1>
-          <h1 className='projectsContent lead font-weight-light'>Final project at Makers. A mobile app that uses speech recognition to fetch recipes based on the ingredients filtered out from the recording.</h1>
-          <h1 className='projectsContent lead font-weight-light'>Technologies Used: React Native, React Native Voice, Jest, Enzyme, Circle CI, REST APIs</h1>
+          <h1 className='projectsContent display-8 font-weight' data-test='project-title'>• Recispeak</h1>
+          <h1 className='projectsContent lead font-weight-light' data-test='project-content'>Final project at Makers. A mobile app that uses speech recognition to fetch recipes based on the ingredients filtered out from the recording.</h1>
+          <h1 className='projectsContent lead font-weight-light' data-test='project-tech'>Technologies Used: React Native, React Native Voice, Jest, Enzyme, Circle CI, REST APIs</h1>
           <a href={'https://github.com/dbacall/Recispeak'} target='_blank' className='projectsContent lead font-weight-light'>View the repo</a>
 
         </Col>
