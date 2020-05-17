@@ -59,7 +59,7 @@ function PhotographyContent(props) {
         <Row className='justify-content-center py-5'>
           <Col md={8} sm={12}>
             <h1 className='projectsTitle display-5 font-weight-bolder'>Concept and Inspiration</h1>
-            <h1 className='photoText font-weight-light'>“ Freedom ”</h1>
+            <h1 className='photoText font-weight-light' data-test='photo-concept'>“ Freedom ”</h1>
           </Col>
         </Row>
       </Container>

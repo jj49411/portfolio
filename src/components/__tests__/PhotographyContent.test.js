@@ -33,4 +33,8 @@ describe('PhotographyContent', () => {
     expect(wrapper.find(`[data-test='photography-content']`).text()).toBe('Check out the photos')  
   })
 
+  it('should display project concept', () => {
+    expect(wrapper.find(`[data-test='photo-concept']`).length).toBe(1)    
+  })
+
 })
