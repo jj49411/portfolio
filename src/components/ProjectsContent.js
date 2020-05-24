@@ -11,6 +11,7 @@ import gif3 from '../assets/images/gif3.gif'
 import gif4 from '../assets/images/gif4.gif'
 import gif5 from '../assets/images/gif5.gif'
 import gif6 from '../assets/images/gif6.gif'
+import gif7 from '../assets/images/gif7.gif'
 import cat1 from '../assets/images/cat1.gif'
 import cat2 from '../assets/images/cat2.gif'
 import line from '../assets/images/line.png'
@@ -63,9 +64,23 @@ function Projects(props) {
      <Container className='project'>
        <Row>
         <Col>
+          <img src={gif7} width='550'></img>
+        </Col>
+        <Col>
+          <h1 className='projectsContent display-8 font-weight'>• Weather App</h1>
+          <h1 className='projectsContent lead font-weight-light'>A web application that allows users to type in a city and see the weather forecast, including temperature, summary, precipitation and weekly forecast.</h1>
+          <h1 className='projectsContent lead font-weight-light'>Technologies Used: JavaScript, React, Jest, Enzyme, Geocoding API, Weather API</h1>
+          <a href={'https://github.com/jj49411/weather_forecast'} target='_blank' className='projectsContent lead font-weight-light'>View the repo</a>
+        </Col>
+       </Row>     
+     </Container>
+     <img src={line} className="line"></img>
+     <Container className='project'>
+       <Row>
+        <Col>
           <h1 className='projectsContent display-8 font-weight'>• Acebook</h1>
           <h1 className='projectsContent lead font-weight-light'>A team project of Facebook clone with strict client requirements, using Rails and Active Record.</h1>
-          <h1 className='projectsContent lead font-weight-light'>Technologies Used: Ruby on Rails, HTML/CSS, Javascript(JQuery), PostgreSQL, Heroku, Rspec, Capybara, Travis CI</h1>
+          <h1 className='projectsContent lead font-weight-light'>Technologies Used: Ruby on Rails, HTML/CSS, JavaScript(JQuery), PostgreSQL, Heroku, Rspec, Capybara, Travis CI</h1>
           <a href={'https://github.com/Hyan18/acebook-luckerberg'} target='_blank' className='projectsContent lead font-weight-light'>View the repo</a>
         </Col>
         <Col>
