@@ -37,4 +37,7 @@ describe('PhotographyContent', () => {
     expect(wrapper.find(`[data-test='photo-concept']`).length).toBe(1)    
   })
 
+  it('should show 6 main photographs', () => {
+    expect(wrapper.find('.photo1').length).toBe(6)    
+  })
 })
