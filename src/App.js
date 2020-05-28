@@ -34,7 +34,7 @@ class App extends React.Component {
       },
       about: {
         title: "About",
-        text1: "I am a goal-driven software engineer recently graduated from Makers Academy. Coming from a design/marketing background, I have a strong passion to build something aesthetic but also useful.  I’m always thinking from user’s perspectives and evaluating my actions that make a positive impact on those who use the product. Being a software developer combines all my motivations: constantly learning, always challenging myself, designing useful products and working with like-minded people.",
+        text1: "I am a goal-driven software engineer recently graduated from Makers Academy. Coming from a design/marketing background, I have a strong passion for UI/UX design. I’m always thinking from user’s perspectives and evaluating my actions that make a positive impact on those who use the product. Being a software developer combines all my motivations: constantly learning, always challenging myself, designing useful products and working with like-minded people.",
         text2: "• Tech Skills: JavaScript, React, React Native, Node.js, Express, MongoDB, Mongoose, Jest, Enzyme, Jasmine, Ruby, Rails, RSpec, HTML, CSS, JQuery, Sinatra, Capybara, PostgreSQL, ActiveRecord",
         text3: "• Behavioural Skills: TDD, MVC, Agile, Pair Programming, Mobbing, Git Workflow, Growth mindset"
       },
